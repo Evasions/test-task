@@ -18,12 +18,13 @@ namespace Test_R
         public int blocks { get; set; }
         public float atimeMs { get; set; }
         public float mtimeMs { get; set; }
-        public  float ctimeMs { get; set; }
-        public  float birthtimeMs { get; set; }
-        public  DateTime atime { get; set; }
+        public float ctimeMs { get; set; }
+        public float birthtimeMs { get; set; }
+        public DateTime atime { get; set; }
         public DateTime mtime { get; set; }
         public DateTime ctime { get; set; }
         public DateTime birthtime { get; set; }
+      
 
     }
 }

@@ -39,11 +39,11 @@ c:\users\loosecontrol\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R
 c:\users\loosecontrol\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\bin\Debug\Newtonsoft.Json.dll
 c:\users\loosecontrol\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\bin\Debug\Newtonsoft.Json.xml
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\Test_R.Droid.FolderInfo.xaml.g.cs
+C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\Test_R.Droid.ShowFile.xaml.g.cs
+C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\Test_R.Android.csprojResolveAssemblyReference.cache
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\bin\Debug\Test_R.Android.dll.mdb
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\android\assets\Test_R.Android.dll.mdb
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\Test_R.Droid.ShowFile.xaml.g.cs
-C:\Users\LooseControl\documents\visual studio 2017\Projects\Test_R\Test_R\Test_R.Android\obj\Debug\Test_R.Android.csprojResolveAssemblyReference.cache

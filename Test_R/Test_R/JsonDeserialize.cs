@@ -36,7 +36,8 @@ namespace Test_R
         //overloaded method to get a list of files in a folder
         public string Deserialize(string _path) //folder path
         {
-            string answer = string.Empty;
+            try {
+                string answer = string.Empty;
             string url = "https://fileserver-tsh.herokuapp.com/" + _path;
             WebRequest request = WebRequest.Create(url);
             request.Method = "POST";
@@ -50,6 +51,11 @@ namespace Test_R
             }
             response.Close();
             return answer;
+            }
+            catch (System.Exception) {
+
+                return "Oops! Something went wrong.";
+            }
         }
 
       

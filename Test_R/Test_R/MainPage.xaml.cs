@@ -26,32 +26,29 @@ namespace Test_R
 
         private void OnButtonClicked(object sender, EventArgs evevnt)
         {
-
-            //Reading a response in a row
-            string answer = jsonDeserialize.Deserialize().ToString();
-            JObject jobject = JObject.Parse(answer);
-            var arrFolder = jobject.SelectToken("content");
-            // parse answer
-            var listFolder = arrFolder.ToList();
-            // geting parametrs from content folder
-            folder = JsonConvert.DeserializeObject<Root>(answer);
-
             string pathFolder;
             string[] split;
-            //get folder options
-            for (int i = 0; i < listFolder.Count; i++) {
-                pathFolder = listFolder[i].Path;
-                split = pathFolder.Split('.');
-                folder.name = split[1];
-                //setup parametrs folder for display
-                try {
-                    folderInfo.Add(new Folder { name = folder.name, birthtime = folder.birthtime, size = folder.size });
+            try {
+                //Reading a response in a row
+                string answer = jsonDeserialize.Deserialize().ToString();
+                JObject jobject = JObject.Parse(answer);
+                var arrFolder = jobject.SelectToken("content");
+                // parse answer
+                var listFolder = arrFolder.ToList();
+                // geting parametrs from content folder
+                folder = JsonConvert.DeserializeObject<Root>(answer);
+                //get folder options
+                for (int i = 0; i < listFolder.Count; i++) {
+                    pathFolder = listFolder[i].Path;
+                    split = pathFolder.Split('.');
+                    folder.name = split[1];
+                    //setup parametrs folder for display
+                    folderInfo.Add(new Folder { name = folder.name, birthtime = folder.birthtime, });
                 }
-                catch (Exception) {
+            }
+            catch (Exception) {
 
-                    LabelMain.Text = "Oops! Something went wrong";
-                }
-                
+                LabelMain.Text = "Oops! Something went wrong";
             }
             lstView.ItemsSource = folderInfo;
 
